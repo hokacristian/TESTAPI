@@ -11,13 +11,17 @@ app.get("/api", (req, res) => {
   res.json([
     {
       id: 1,
-      nama: "Yanto",
-      kelas: "TT-40-01",
+      provinsi: "HOKA GANZ BANGET",
+      kota: "MONTEVERDE",
+      kecamatan: "JOSDAH",
+      desa: "ASEK BANGET",
     },
     {
-      id: 2,
-      nama: "Sugito",
-      kelas: "TT-42-02",
+        id: 2,
+        provinsi: "HOKA GANZ ANJAS",
+        kota: "DYUAR",
+        kecamatan: "MELEDAK",
+        desa: "ASEK CUYY",
     },
   ]);
 });
